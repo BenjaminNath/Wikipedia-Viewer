@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wikipedia Viewer</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="wiki.css">
+</head>
+<body>
+	
+	<div class="center" id="top">
+	  <p><a href="https://en.wikipedia.org/wiki/Special:Random" class="random">Take me to a random Wiki Page</a></p>
+	  <input id="searchInput" placeholder="Search">
+	  <button class="btn btn-primary" id="search">Go!</button>
+	  <p class="searchWiki">Hit enter to search Wikipedia</p>
+	</div>
+	<div class="bottom container">
+	  <ul id="results"></ul>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="wiki.js"></script>
+</body>
+</html>

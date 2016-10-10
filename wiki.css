@@ -1,0 +1,72 @@
+body {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #2589BD;
+}
+.random {
+  color: #E7ECEF;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+.random:hover {
+  color: #465775;
+  text-decoration: none;
+}
+.center {
+  background-color: #F05D5E;
+  text-align: center;
+  padding: 100px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.searchWiki {
+  padding: 15px;
+}
+input{
+  height: 40px;
+  width: 150px;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  border-radius: 50px;
+  border: none;
+  opacity: 0.5;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg) left center no-repeat;
+  background-size: 20px 25px;
+  text-indent: 30px;
+  background-position: 5px 9px;
+  background-color: #FFF;
+}
+input:focus {
+  width: 300px;
+}
+.bottom {
+  width: 100%;
+  background color: #A8F9FF;
+  text-align: center;
+  z-index: 1000;
+}
+ul {
+  list-style: none;
+  margin: 20px 350px;
+  font-size: 1.5em;
+}
+ul li {
+  text-align: left;
+  border: 2px solid #fff;
+  border-radius: 3px; 
+  margin: 15px 0px;
+  padding: 10px 15px;
+  background-color: #fff;
+}
+ul li:hover {
+  border-left: 5px solid #F05D5E;
+}
+ul li a{
+  color: #2589BD;
+  text-decoration: none;
+}
